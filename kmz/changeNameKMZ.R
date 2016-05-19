@@ -5,11 +5,15 @@
 
 
 
+data<-read.csv("",header=T)
+
 
 ### =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= ###
 ### Rename folders and files in KML_FOLDER
 ### =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= ###
 
+#main_dir = ""
+main_dir = ""
 
 files_ch = data
 files_ch = files_ch[order(files_ch$crop),]
